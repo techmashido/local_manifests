@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="techmashido/android_device_zuk_ham" path="device/zuk/ham" remote="github" revision="du-n" />
+  <project name="techmashido/proprietary_vendor_zuk" path="vendor/zuk" remote="github" revision="n" />
+  <project name="techmashido/RA-kernel-ham-msm8974" path="kernel/cyanogen/msm8974" remote="github" revision="n" />
+
+<!-- stuffs for fixes -->
+
+  <remove-project name="android_hardware_ril" />
+  <project path="hardware/ril" name="lineageos/android_hardware_ril" remote="github" revision="cm-14.1-caf" />
+
+  <remove-project name="android_hardware_qcom_wlan" />
+  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="github" revision="cm-14.1-caf" />
+
+  <remove-project name="android_hardware_qcom_display" />
+  <project path="hardware/qcom/display" name="Citrus-CAF/hardware_qcom_display" remote="github" revision="n-8974" />
+
+  <remove-project name="android_hardware_qcom_audio" />
+  <project path="hardware/qcom/audio" name="Citrus-CAF/hardware_qcom_audio" remote="github" revision="n-8974" />
+
+  <remove-project name="android_hardware_qcom_media" />
+  <project path="hardware/qcom/media" name="Citrus-CAF/hardware_qcom_media" remote="github" revision="n-8974" />
+
+  <remove-project name="android_hardware_qcom_bt"
+  <project path="hardware/qcom/bt" name="Citrus-CAF/hardware_qcom_bt" remote="github" revision="n" />
+
+  <project path="system/qcom" name="DirtyUnicorns/android_system_qcom" remote="github" revision="n7x-caf" />
+  <project path="external/ant-wireless/antradio-library" name="DirtyUnicorns/android_external_ant-wireless_antradio-library" remote="github" revision="n7x-caf" />
+</manifest>

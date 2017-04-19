@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="OneRomOne-N/android_device_zuk_ham" path="device/zuk/ham" remote="github" revision="nuclear-n" />
+  <project name="techmashido/proprietary_vendor_zuk" path="vendor/zuk" remote="github" revision="n" />
+  <project name="techmashido/RA-kernel-ham-msm8974" path="kernel/cyanogen/msm8974" remote="github" revision="n" />
+  <!-- project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" / -->
+</manifest>

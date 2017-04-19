@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="techmashido/android_device_zuk_ham" path="device/zuk/ham" remote="github" revision="citrus-n" />
+  <project name="OneRomOne-N/proprietary_vendor_zuk" path="vendor/zuk" remote="github" revision="nuclear-n" />
+  <project name="acuicultor/Radioactive-Kernel-HAM" path="kernel/cyanogen/msm8974" remote="github" revision="cpuquiet" />
+
+  <remove-project name="hardware_qcom_wlan" path="hardware/qcom/wlan" remote="ctr" />
+  <project name="ssawrav/android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="github" revision="cm-14.1-caf" />
+</manifest>
